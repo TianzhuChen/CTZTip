@@ -21,6 +21,20 @@
 		FC52072D1821F6C2005C6829 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC52070F1821F6C1005C6829 /* UIKit.framework */; };
 		FC5207351821F6C2005C6829 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC5207331821F6C2005C6829 /* InfoPlist.strings */; };
 		FC5207371821F6C2005C6829 /* CTZTipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5207361821F6C2005C6829 /* CTZTipTests.m */; };
+		FC5207431821F8F1005C6829 /* CTZTipController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5207421821F8F1005C6829 /* CTZTipController.m */; };
+		FC5207441821F8F1005C6829 /* CTZTipController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5207421821F8F1005C6829 /* CTZTipController.m */; };
+		FC8CC4ED182347DA002FFDD0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8CC4EC182347DA002FFDD0 /* MBProgressHUD.m */; };
+		FC8CC4EE182347DA002FFDD0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8CC4EC182347DA002FFDD0 /* MBProgressHUD.m */; };
+		FC8CC4F1182349BB002FFDD0 /* CTZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8CC4F0182349BB002FFDD0 /* CTZProgressView.m */; };
+		FC8CC4F2182349BB002FFDD0 /* CTZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8CC4F0182349BB002FFDD0 /* CTZProgressView.m */; };
+		FCF33DE6182352240050BE96 /* CTZIndeterminateView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF33DE5182352240050BE96 /* CTZIndeterminateView.m */; };
+		FCF33DE7182352240050BE96 /* CTZIndeterminateView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF33DE5182352240050BE96 /* CTZIndeterminateView.m */; };
+		FCF33DEC182352B70050BE96 /* CTZIndCircleLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF33DEB182352B70050BE96 /* CTZIndCircleLoading.m */; };
+		FCF33DED182352B70050BE96 /* CTZIndCircleLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF33DEB182352B70050BE96 /* CTZIndCircleLoading.m */; };
+		FCF33DF018235BBB0050BE96 /* CTZProCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF33DEF18235BBB0050BE96 /* CTZProCircleView.m */; };
+		FCF33DF118235BBB0050BE96 /* CTZProCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF33DEF18235BBB0050BE96 /* CTZProCircleView.m */; };
+		FCFD005218222A1F0016E4CF /* CTZTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFD005118222A1F0016E4CF /* CTZTipView.m */; };
+		FCFD005318222A1F0016E4CF /* CTZTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFD005118222A1F0016E4CF /* CTZTipView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +67,20 @@
 		FC5207321821F6C2005C6829 /* CTZTipTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CTZTipTests-Info.plist"; sourceTree = "<group>"; };
 		FC5207341821F6C2005C6829 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC5207361821F6C2005C6829 /* CTZTipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTZTipTests.m; sourceTree = "<group>"; };
+		FC5207411821F8F1005C6829 /* CTZTipController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTZTipController.h; sourceTree = "<group>"; };
+		FC5207421821F8F1005C6829 /* CTZTipController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTZTipController.m; sourceTree = "<group>"; };
+		FC8CC4EB182347DA002FFDD0 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FC8CC4EC182347DA002FFDD0 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		FC8CC4EF182349BB002FFDD0 /* CTZProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTZProgressView.h; sourceTree = "<group>"; };
+		FC8CC4F0182349BB002FFDD0 /* CTZProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTZProgressView.m; sourceTree = "<group>"; };
+		FCF33DE4182352240050BE96 /* CTZIndeterminateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTZIndeterminateView.h; sourceTree = "<group>"; };
+		FCF33DE5182352240050BE96 /* CTZIndeterminateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTZIndeterminateView.m; sourceTree = "<group>"; };
+		FCF33DEA182352B70050BE96 /* CTZIndCircleLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTZIndCircleLoading.h; sourceTree = "<group>"; };
+		FCF33DEB182352B70050BE96 /* CTZIndCircleLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTZIndCircleLoading.m; sourceTree = "<group>"; };
+		FCF33DEE18235BBB0050BE96 /* CTZProCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTZProCircleView.h; sourceTree = "<group>"; };
+		FCF33DEF18235BBB0050BE96 /* CTZProCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTZProCircleView.m; sourceTree = "<group>"; };
+		FCFD005018222A1F0016E4CF /* CTZTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTZTipView.h; sourceTree = "<group>"; };
+		FCFD005118222A1F0016E4CF /* CTZTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTZTipView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +140,7 @@
 		FC5207111821F6C1005C6829 /* CTZTip */ = {
 			isa = PBXGroup;
 			children = (
+				FC5207401821F8BF005C6829 /* class */,
 				FC52071A1821F6C1005C6829 /* AppDelegate.h */,
 				FC52071B1821F6C1005C6829 /* AppDelegate.m */,
 				FC52071D1821F6C1005C6829 /* Main.storyboard */,
@@ -150,6 +179,43 @@
 				FC5207331821F6C2005C6829 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC5207401821F8BF005C6829 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				FCF33DE9182352860050BE96 /* defaultIndeterminate */,
+				FCF33DE81823527D0050BE96 /* defaultProgress */,
+				FC8CC4EB182347DA002FFDD0 /* MBProgressHUD.h */,
+				FC8CC4EC182347DA002FFDD0 /* MBProgressHUD.m */,
+				FC5207411821F8F1005C6829 /* CTZTipController.h */,
+				FC5207421821F8F1005C6829 /* CTZTipController.m */,
+				FCFD005018222A1F0016E4CF /* CTZTipView.h */,
+				FCFD005118222A1F0016E4CF /* CTZTipView.m */,
+				FC8CC4EF182349BB002FFDD0 /* CTZProgressView.h */,
+				FC8CC4F0182349BB002FFDD0 /* CTZProgressView.m */,
+				FCF33DE4182352240050BE96 /* CTZIndeterminateView.h */,
+				FCF33DE5182352240050BE96 /* CTZIndeterminateView.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		FCF33DE81823527D0050BE96 /* defaultProgress */ = {
+			isa = PBXGroup;
+			children = (
+				FCF33DEE18235BBB0050BE96 /* CTZProCircleView.h */,
+				FCF33DEF18235BBB0050BE96 /* CTZProCircleView.m */,
+			);
+			name = defaultProgress;
+			sourceTree = "<group>";
+		};
+		FCF33DE9182352860050BE96 /* defaultIndeterminate */ = {
+			isa = PBXGroup;
+			children = (
+				FCF33DEA182352B70050BE96 /* CTZIndCircleLoading.h */,
+				FCF33DEB182352B70050BE96 /* CTZIndCircleLoading.m */,
+			);
+			name = defaultIndeterminate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +315,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8CC4F1182349BB002FFDD0 /* CTZProgressView.m in Sources */,
 				FC5207221821F6C1005C6829 /* ViewController.m in Sources */,
+				FC8CC4ED182347DA002FFDD0 /* MBProgressHUD.m in Sources */,
 				FC52071C1821F6C1005C6829 /* AppDelegate.m in Sources */,
+				FCF33DF018235BBB0050BE96 /* CTZProCircleView.m in Sources */,
 				FC5207181821F6C1005C6829 /* main.m in Sources */,
+				FCFD005218222A1F0016E4CF /* CTZTipView.m in Sources */,
+				FCF33DEC182352B70050BE96 /* CTZIndCircleLoading.m in Sources */,
+				FCF33DE6182352240050BE96 /* CTZIndeterminateView.m in Sources */,
+				FC5207431821F8F1005C6829 /* CTZTipController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +332,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8CC4F2182349BB002FFDD0 /* CTZProgressView.m in Sources */,
 				FC5207371821F6C2005C6829 /* CTZTipTests.m in Sources */,
+				FC5207441821F8F1005C6829 /* CTZTipController.m in Sources */,
+				FCFD005318222A1F0016E4CF /* CTZTipView.m in Sources */,
+				FCF33DF118235BBB0050BE96 /* CTZProCircleView.m in Sources */,
+				FCF33DED182352B70050BE96 /* CTZIndCircleLoading.m in Sources */,
+				FCF33DE7182352240050BE96 /* CTZIndeterminateView.m in Sources */,
+				FC8CC4EE182347DA002FFDD0 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +461,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CTZTip/CTZTip-Prefix.pch";
 				INFOPLIST_FILE = "CTZTip/CTZTip-Info.plist";
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +475,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CTZTip/CTZTip-Prefix.pch";
 				INFOPLIST_FILE = "CTZTip/CTZTip-Info.plist";
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +542,7 @@
 				FC52073C1821F6C2005C6829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC52073D1821F6C2005C6829 /* Build configuration list for PBXNativeTarget "CTZTipTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +551,7 @@
 				FC52073F1821F6C2005C6829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
